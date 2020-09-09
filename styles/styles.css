@@ -1,3 +1,20 @@
+/*Font Face*/
+
+@font-face {
+    font-family: 'GalanoBold';
+    src: url(../fonts/GalanoGrotesqueAltBold.otf);
+}
+
+@font-face {
+    font-family: 'GalanoMedium';
+    src: url(../fonts/GalanoGrotesqueAltMedium.otf);
+}
+
+@font-face {
+    font-family: 'GalanoNormal';
+    src: url(../fonts/GalanoGrotesqueAlt.otf);
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -36,7 +53,26 @@
 .header-buttons {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 30%;
     height: 100%;
+    margin: 0px;
+}
+
+.header-main p {
+    font-family: 'GalanoBold', sans-serif;
+    color: #00cfa7;
+    margin: 0px;
+}
+
+.header-main a {
+
+    font-family: 'GalanoBold', sans-serif;
+    font-size: 20px;
+    color: #363546;
+    margin: 0px;
+    padding: 0px;
+
 }
 
