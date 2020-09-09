@@ -1,0 +1,42 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 15vh;
+}
+
+.logobox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    padding: 1em;
+}
+
+.logo {
+    width: auto;
+    height: 50%;
+}
+
+.header-middle {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.header-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+}
+
