@@ -166,6 +166,11 @@ h3 {
 
 .homeserve-title {
     width: 60%;
+    align-items: center;
+}
+
+.homeserve-title > span > img {
+    height: 30px;
 }
 
 .homeserve-title > span {
@@ -192,6 +197,11 @@ label {
     font-size: 0.7em;
     margin: 0px;
     margin-left: 5px;
+}
+
+.homeserve {
+    font-size: 1.2em;
+    font-weight: 800;
 }
 
 input > span {
@@ -233,8 +243,29 @@ button {
 }
 
 .servicios-items {
-    font-family: 'GalanoMedium', sans-serif;
+    font-family: 'GalanoNormal', sans-serif;
     display: flex;
     width: 200px;
     color: white;
 }
+
+.servicios-items > p > span {
+    
+    font-family: 'GalanoBold',sans-serif;
+    font-size: 1.1em;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    font-family: 'GalanoMedium';
+    margin-top: 2em;
+}
+
+.footer > p > span {
+    font-family: 'GalanoBold',sans-serif;
+    font-size: 1.2em;
+}
+
