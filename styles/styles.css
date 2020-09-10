@@ -76,3 +76,165 @@ body {
 
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+}
+
+.wrapper-left {
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+
+
+.wrapper-left {
+    display: flex;
+    justify-content: center;
+
+    width: 50%;
+    height: 100%;
+}
+
+.wrapper-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.precio-right {
+    margin-top: 1em;
+}
+
+.precio-right > span {
+    font-family: 'GalanoBold', sans-serif;
+    font-size: 1.4em;
+}
+
+.mucho-frio {
+    display: block;
+    height: 100%;
+    width: auto;
+
+}
+
+.wrapper-up {
+    display: flex;
+    width: 100%;
+}
+
+.wrapper-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #00cfa7;
+    padding: 4em;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'GalanoBold';
+    font-size: 4em;
+}
+
+.right-title {
+    width: 60%;
+    padding-top: 1em;
+    margin-bottom: 0.1em;
+    line-height: 0.9em;
+    letter-spacing: -1px;
+}
+
+h3 {
+    font-family: 'GalanoBold';
+    font-size: 1.3em;
+}
+
+.podemos-llamarte {
+    font-size: 1.7em;
+    color: #00cfa7;
+}
+
+.precio-right {
+    width: 40%;
+    font-family: 'GalanoNormal';
+}
+
+.homeserve-title {
+    width: 60%;
+}
+
+.homeserve-title > span {
+    color: #00cfa7;
+}
+
+.formulario {
+    width: 60%;
+    margin-top: 1em;
+}
+
+label {
+    font-family: 'GalanoBold', sans-serif;
+    font-size: 1.2em;
+}
+
+.proteccion-datos {
+    display: flex;
+    margin: 0px;
+
+}
+
+.proteccion-datos > p {
+    font-size: 0.7em;
+    margin: 0px;
+    margin-left: 5px;
+}
+
+input > span {
+    font-size: 1.3em;
+    font-family: 'GalanoBold', sans-serif;
+}
+
+button {
+    color: white;
+    font-family: 'GalanoBold', sans-serif;
+    font-size: 1.2em;
+    width: 100%;
+    height: 50px;
+    margin: 1em 0em 1em 0em;
+    border: 0px;
+    background-color: #00cfa7;
+   
+}
+
+.oferta-title {
+    width: 50%;
+    font-family: 'GalanoNormal', sans-serif;
+    text-align: center;
+    color: #363546;
+    font-size: 2em;
+}
+
+.oferta-title > span {
+    font-family: 'GalanoBold', sans-serif;
+    color: white;
+
+}
+
+.servicios {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 3em;
+}
+
+.servicios-items {
+    font-family: 'GalanoMedium', sans-serif;
+    display: flex;
+    width: 200px;
+    color: white;
+}
