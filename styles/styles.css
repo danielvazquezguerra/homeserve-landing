@@ -143,7 +143,7 @@ h2 {
 
 .right-title {
     width: 60%;
-    padding-top: 1em;
+    padding-top: 0.1em;
     margin-bottom: 0.1em;
     line-height: 0.9em;
     letter-spacing: -1px;
@@ -235,17 +235,34 @@ button {
 
 }
 
+.servicios-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 3em;
+    border: 6px solid #363546;
+    padding: 1em;
+}
+
+.servicios-wrapper > h3 {
+    color: #363546;
+    font-size: 1.9em;
+    margin-bottom: 1em;
+}
+
 .servicios {
     display: flex;
     justify-content: space-around;
-    width: 80%;
-    margin-top: 3em;
+    width: 100%;
+    
 }
 
 .servicios-items {
     font-family: 'GalanoNormal', sans-serif;
     display: flex;
     width: 200px;
+    padding: 10px;
     color: white;
 }
 
@@ -267,5 +284,53 @@ button {
 .footer > p > span {
     font-family: 'GalanoBold',sans-serif;
     font-size: 1.2em;
+}
+
+.averias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    border: 6px solid white;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.averias > h3 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.averias-items {
+    width: 200px;
+    height: 200px;
+    border: 3px solid white;
+}
+
+.preguntas {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 1em;
+}
+
+.preguntas-button {
+    font-size: 1.2em;
+    font-family: 'GalanoBold', sans-serif;
+    background-color: white;
+}
+
+.preguntas h4 {
+    font-size: 1.3em;
+    font-family: 'GalanoBold', sans-serif;
+}
+
+.preguntas li {
+    font-family: 'GalanoNormal',sans-serif;
+}
+
+.card {
+    padding: 3em;
 }
 
