@@ -286,6 +286,8 @@ button {
     font-size: 1.2em;
 }
 
+/*averias*/
+
 .averias {
     display: flex;
     flex-direction: column;
@@ -296,6 +298,13 @@ button {
     padding: 1em;
 }
 
+.averias-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
 .averias > h3 {
     color: white;
     font-size: 2em;
@@ -303,9 +312,41 @@ button {
 }
 
 .averias-items {
-    width: 200px;
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    height: 180px;
     border: 3px solid white;
+    margin: 1em;
+}
+
+.info-averia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.info-averia > p {
+    color: white;
+    text-align: center;
+    font-family: 'GalanoNormal', sans-serif;
+    line-height: 1em;
+    margin: 0px;
+}
+
+.icon-averia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    /* padding: 0.6em; */
+    
+}
+
+.icon-averia > img {
+    height: 100%;
 }
 
 .preguntas {
