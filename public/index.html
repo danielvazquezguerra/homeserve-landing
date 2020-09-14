@@ -19,7 +19,7 @@
 
             </div>
 
-            <div class="header-buttons">
+            <!-- <div class="header-buttons">
 
                 <div class="telefono">
 
@@ -32,7 +32,7 @@
                     <img src="./img/llamada.png" alt="">
                 </div>
 
-            </div>
+            </div> -->
     
         </header>
 
@@ -61,18 +61,32 @@
 
                         <h3 class="podemos-llamarte">Podemos llamarte ahora</h3>
 
-                        <form>
+                        <form id='homeserve' method='post' action='envio3.php'>
                             <div class="form-group">
                               <label for="formGroupExampleInput">Nombre</label>
-                              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escribe tu nombre">
+                              <input type="text" class="form-control" name="nombre2" id="formGroupExampleInput" placeholder="Escribe tu nombre">
                             </div>
                             <div class="form-group">
                               <label for="formGroupExampleInput2">Teléfono</label>
-                              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Déjanos tu teléfono">
+                              <input type="text" class="form-control" id="formGroupExampleInput2" name="telefono2" placeholder="Déjanos tu teléfono">
                             </div>
                             <div class="proteccion-datos">
 
-                                <input type="checkbox"><p>Consiento el uso de mis datos según los términos establecidos en esta Política de privacidad  y que me llame <span class="homeserve">Homeserve</span></p>
+                                <div class="sepcheck">  
+                                    <label>
+                                       <input class="input-pd" type="checkbox" value="1" name="inputAviso1" required="">
+                                            <p class="info-pd">He leído y acepto las condiciones previstas en el <a href="/aviso-legal" target="_blank" id="aviso">Aviso Legal <strong>*.</strong></a></p> 
+                                       </label>
+                              
+        <div class="sepcheck"> 
+                               </div>
+                                    <label>
+                                       <input class="input-pd" type="checkbox" value="1" name="inputPolitica1" required="">
+                                          <p class="info-pd">Consiento el uso de mis datos según los términos establecidos en esta <a href="/politica-de-privacidad" target="_blank" id="aviso" class="archivo">Política de Privacidad </a> <strong>*</strong>.</p> 
+                                    </label>
+                       </div>
+
+                                <!-- <input type="checkbox" placeholder=""><p>Consiento el uso de mis datos según los términos establecidos en esta Política de privacidad  y que me llame <span class="homeserve">Homeserve</span></p> -->
                                 
                             </div>
                             <button>ENVIAR</button>

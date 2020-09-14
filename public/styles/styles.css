@@ -164,17 +164,39 @@ h2 {
 
 h3 {
     font-family: 'GalanoBold';
-    font-size: 1.3em;
+    font-size: 2em;
+}
+
+
+.sepcheck > label {
+    display: flex;
+}
+
+.info-pd {
+    margin: 0px;
+    margin-left: 10px;
+}
+
+
+.sepcheck > label > p {
+    font-family: 'GalanoNormal';
+    font-size: 0.5em;
 }
 
 .podemos-llamarte {
-    font-family: 'GalanoNormal', sans-serif;
-    font-size: 1.2em;
+    font-family: 'GalanoBold', sans-serif;
+    text-align: center;
+    line-height: 1em;
+    font-size: 2em;
     border-top: 1px solid black;
     margin-top: 10px;
     padding-top: 10px;
     margin-bottom: 30px;
 
+}
+
+p {
+    font-family: 'GalanoNormal', sans-serif;
 }
 
 .precio-right {
@@ -503,7 +525,7 @@ button {
     }
 
     h3 {
-        font-size: 1em;
+        font-size: 1.3em;
     }
 
     .oferta-title {
