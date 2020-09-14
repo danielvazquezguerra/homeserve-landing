@@ -77,6 +77,10 @@ body {
 
 }
 
+.wrapper-right > p {
+    font-size: 1em;
+}
+
 .icon-phone {
     display: none;
 }
@@ -109,7 +113,7 @@ body {
 
 .precio-right > span {
     font-family: 'GalanoBold', sans-serif;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 
@@ -146,11 +150,16 @@ h2 {
 .right-title {
 
     font-family: 'GalanoMedium';
+    font-size: 2.6em;
     width: 70%;
     padding-top: 0.1em;
-    margin-bottom: 0.1em;
+    margin-bottom: 0.4em;
     line-height: 0.9em;
     letter-spacing: -1px;
+}
+
+.subtitle {
+    font-family: 'GalanoNormal', sans-serif;
 }
 
 h3 {
@@ -159,13 +168,18 @@ h3 {
 }
 
 .podemos-llamarte {
-    font-size: 1.7em;
-    color: #00cfa7;
+    font-family: 'GalanoNormal', sans-serif;
+    font-size: 1.2em;
+    border-top: 1px solid black;
+    margin-top: 1em;
+    padding-top: 1em;
+
 }
 
 .precio-right {
     width: 60%;
     font-family: 'GalanoNormal';
+    margin-top: 2em;
 }
 
 .homeserve-title {
@@ -178,7 +192,7 @@ h3 {
 }
 
 .homeserve-title > span {
-    font-family: 'GalanoBold';
+    font-family: 'GalanoNormal';
     color: #00cfa7;
 }
 
@@ -210,7 +224,7 @@ label {
 }
 
 input > span {
-    font-size: 1.3em;
+    font-size: 1em;
     font-family: 'GalanoBold', sans-serif;
 }
 
