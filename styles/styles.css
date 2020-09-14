@@ -296,6 +296,12 @@ button {
     padding: 1em;
 }
 
+.averias-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
 .averias > h3 {
     color: white;
     font-size: 2em;
@@ -306,6 +312,7 @@ button {
     width: 200px;
     height: 200px;
     border: 3px solid white;
+    margin: 15px;
 }
 
 .preguntas {
