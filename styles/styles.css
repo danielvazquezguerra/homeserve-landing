@@ -112,6 +112,7 @@ body {
     font-size: 1.4em;
 }
 
+
 .mucho-frio {
   
     position: relative;
@@ -239,40 +240,70 @@ button {
 
 }
 
-.servicios-wrapper {
+.servicios {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
-    margin-top: 3em;
+    width: 90%;
+    margin-top: 2em;
     border-top: 6px solid #363546;
     padding: 1em;
 }
 
-.servicios-wrapper > h3 {
+.servicios > h3 {
     color: #363546;
-    font-size: 1.9em;
+    font-size: 2em;
+    margin-bottom: 0px;
     margin-bottom: 1em;
+    text-align: center;
 }
 
-.servicios {
+.servicios-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
     
 }
 
 .servicios-items {
     display: flex;
-    align-items: flex-start;
-    width: 200px;
-    padding: 10px;
-    font-family: 'GalanoNormal', sans-serif;
-    color: #363546;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    margin: 20px;
 }
 
-.servicios-items > p > span {
+.icon-servicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+
+}
+
+.icon-servicio > img {
+
+    height: 100%;
+}
+
+.info-servicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.7em;
+}
+
+.info-servicio > p {
+    color: #363546;
+    text-align: center;
+    font-family: 'GalanoNormal', sans-serif;
+    line-height: 1.3em;
+    margin-top: 1em;
+}
+
+.info-servicio > p > span {
     
     font-family: 'GalanoBold',sans-serif;
     font-size: 1.1em;
@@ -281,10 +312,17 @@ button {
 
 .footer {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 80%;
     font-family: 'GalanoMedium';
     margin-top: 2em;
+}
+
+.footer > p {
+    text-align: center;
+    line-height: 1.6em;
 }
 
 .footer > p > span {
@@ -357,8 +395,7 @@ button {
     justify-content: center;
     align-items: center;
     height: 60px;
-    /* padding: 0.6em; */
-    
+
 }
 
 .icon-averia > img {
@@ -401,8 +438,6 @@ button {
         flex-direction: column;
         align-items: center;
         width: 90%;
-        margin-top: 3em;
-        border-top: 6px solid #363546;
         padding: 1em;
     }
 
@@ -565,5 +600,19 @@ button {
         font-family: 'GalanoMedium';
         margin-top: 2em;
         border-top: 2px solid black;
+        
+    }
+
+    .horario {
+        margin-top: 1em;
+        font-size: 0.8em;
+    
+
+    }
+
+    .footer > p {
+        text-align: center;
+        line-height: 1.5em;
+        text-align: center;
     }
   }

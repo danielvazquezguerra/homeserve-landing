@@ -42,7 +42,7 @@
 
                 <div class="wrapper-left">
     
-                    <img class="mucho-frio" src="./img/mucho-frio.jpg" alt="">
+                    <img class="mucho-frio" src="./img/mucho-frio-v2.jpg" alt="">
     
     
                 </div>
@@ -85,47 +85,80 @@
 
                 <h3 class="oferta-title">Aprovecha esta oferta exclusiva y por sólo <span>8,55€ al mes</span> durante el primer año, olvídate de imprevistos con tu caldera. </h3>
 
-                <div class="servicios-wrapper">
+                <div class="servicios">
 
                     <h3>Servicios incluidos con HomeServe</h3>
 
-                    <div class="servicios">
+                    <div class="servicios-wrapper">
 
                         <div class="servicios-items">
-                                <p> 
-                                    Incluye gastos de desplazamiento y hasta 
-                                    <span>3 horas de mano de obra</span> 
-                                    en cada servicio, sin límite de
-                                    intervenciones para las reparaciones o urgencias
-                                    de la caldera o el calentador.
-                                </p>
+
+                            <div class="icon-servicio">
+                                <img src="./img/servicios-reparaciones.png" alt="servicios-telefono">
+                            </div>
+                            <div class="info-servicio">
+                               <p>Incluye gastos de desplazamiento y hasta 
+                                <span>3 horas de mano de obra</span> 
+                                en cada servicio, sin límite de
+                                intervenciones para las reparaciones o urgencias
+                                de la caldera o el calentador.</p> 
+                            </div>
+            
                         </div>
-    
+
                         <div class="servicios-items">
-                            <p> 
-                                Una revisión anual de la caldera de gas o el calentador,
-                                incluyendo <span>Acta de Actuación</span>
-                            </p>
-                    </div>
-    
-                    <div class="servicios-items">
-                        <p> 
-                            Atención teléfonica <span>24 horas</span> los 365 días.
-                        </p>
-                </div>
-    
-                <div class="servicios-items">
-                    <p> 
-                       <span> 1 año de garantía</span> en todas las reparaciones.
-                    </p>
-            </div>
-    
-            <div class="servicios-items">
-                <p> 
-                    Organización de la intervención de urgencia en
-                    menos de 3 horas.
-                </p>
-            </div>
+
+                            <div class="icon-servicio">
+                                <img src="./img/servicios-revision.png" alt="servicios-telefono">
+                            </div>
+                            <div class="info-servicio">
+                                <p> 
+                                    Una revisión anual de la caldera de gas o el calentador,
+                                    incluyendo <span>Acta de Actuación</span>
+                                </p>
+                            </div>
+            
+                        </div>
+
+                        <div class="servicios-items">
+
+                            <div class="icon-servicio">
+                                <img src="./img/servicios-telefono.png" alt="servicios-telefono">
+                            </div>
+                            <div class="info-servicio">
+                                <p> 
+                                    Atención teléfonica <span>24 horas</span> los 365 días.
+                                </p>
+                            </div>
+            
+                        </div>
+
+                        <div class="servicios-items">
+
+                            <div class="icon-servicio">
+                                <img src="./img/servicios-garantia.png" alt="servicios-telefono">
+                            </div>
+                            <div class="info-servicio">
+                                <p> 
+                                    <span> 1 año de garantía</span> en todas las reparaciones.
+                                 </p>
+                            </div>
+            
+                        </div>
+
+                        <div class="servicios-items">
+
+                            <div class="icon-servicio">
+                                <img src="./img/servicios-tiempo.png" alt="servicios-telefono">
+                            </div>
+                            <div class="info-servicio">
+                                <p> 
+                                    Organización de la intervención de urgencia en
+                                    menos de 3 horas.
+                                </p>
+                            </div>
+            
+                        </div>
 
         </div>
 
@@ -300,20 +333,43 @@
     <section class="footer">
     
         <p class="horario">Servicio de HomeServe. Te contactará por teléfono de <span>Lunes a Viernes de 9:00 a 20:00*</span> </p>
-        <p>*Servicios suscritos con <span> HOMESERVE SPAIN, S.L.U.</span> </p>
+        <p>*Servicios suscritos con <br> 
+        <span> HOMESERVE SPAIN, S.L.U.</span> 
+        </p>
     
     </section>
-    
-    
+
 </div>
 
-
         </section>
-
-    
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBx3CsmsIg2FsBUc5WaUwc9_YzXacPx5n8",
+    authDomain: "landing-homeserve.firebaseapp.com",
+    databaseURL: "https://landing-homeserve.firebaseio.com",
+    projectId: "landing-homeserve",
+    storageBucket: "landing-homeserve.appspot.com",
+    messagingSenderId: "887352860084",
+    appId: "1:887352860084:web:31fbd650957f980934e6e1",
+    measurementId: "G-8LC2RJ1Q1W"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 </html>
