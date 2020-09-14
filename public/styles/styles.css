@@ -152,8 +152,8 @@ h2 {
     font-family: 'GalanoMedium';
     font-size: 2.6em;
     width: 70%;
-    padding-top: 0.1em;
-    margin-bottom: 0.4em;
+    padding-top: 10px;
+    margin-bottom: 15px;
     line-height: 0.9em;
     letter-spacing: -1px;
 }
@@ -179,22 +179,22 @@ h3 {
 .precio-right {
     width: 60%;
     font-family: 'GalanoNormal';
-    margin-top: 2em;
+    margin-top: 20px;
 }
 
 .homeserve-title {
     width: 80%;
     align-items: center;
-}
-
-.homeserve-title > span > img {
-    height: 30px;
-}
-
-.homeserve-title > span {
-    font-family: 'GalanoNormal';
     color: #00cfa7;
+    margin-top: 40px;
 }
+
+.homeserve-logo {
+    height: 30px;
+ 
+}
+
+
 
 .formulario {
     width: 60%;
