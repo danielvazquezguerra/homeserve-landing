@@ -36,8 +36,8 @@ body {
     align-items: center;
     /* width: 20%; */
     height: 100%;
-    padding: 1em;
-    margin-left: 1em;
+    padding: 10px;
+    margin-left: 5px;
 }
 
 .logo {
@@ -104,11 +104,11 @@ body {
     flex-direction: column;
     width: 50%;
     height: 100%;
-    padding: 2em;
+    /* padding: 20px; */
 }
 
 .precio-right {
-    margin-top: 1em;
+    margin-top: 20px;
 }
 
 .precio-right > span {
@@ -118,7 +118,7 @@ body {
 
 
 .mucho-frio {
-  
+
     position: relative;
     left: 5%;
     width: 90%;
@@ -130,6 +130,7 @@ body {
 .wrapper-up {
     display: flex;
     width: 100%;
+    padding: 30px;
 }
 
 .wrapper-down {
@@ -138,7 +139,7 @@ body {
     align-items: center;
     width: 100%;
     /* background-color: #00cfa7; */
-    padding: 4em;
+    padding: 30px;
     margin: 0px;
 }
 
@@ -154,7 +155,6 @@ h2 {
     width: 70%;
     padding-top: 10px;
     margin-bottom: 15px;
-    line-height: 0.9em;
     letter-spacing: -1px;
 }
 
@@ -171,8 +171,9 @@ h3 {
     font-family: 'GalanoNormal', sans-serif;
     font-size: 1.2em;
     border-top: 1px solid black;
-    margin-top: 1em;
-    padding-top: 1em;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 30px;
 
 }
 
@@ -191,14 +192,14 @@ h3 {
 
 .homeserve-logo {
     height: 30px;
- 
+
 }
 
 
 
 .formulario {
     width: 60%;
-    margin-top: 1em;
+    margin-top: 20px;
 }
 
 label {
@@ -218,11 +219,6 @@ label {
     margin-left: 5px;
 }
 
-.homeserve {
-    font-size: 1.2em;
-    font-weight: 800;
-}
-
 input > span {
     font-size: 1em;
     font-family: 'GalanoBold', sans-serif;
@@ -234,10 +230,10 @@ button {
     font-size: 1.2em;
     width: 100%;
     height: 50px;
-    margin: 1em 0em 1em 0em;
+    margin: 50px 0px 10px 0px;
     border: 0px;
     background-color: #00cfa7;
-   
+
 }
 
 .oferta-title {
@@ -262,14 +258,15 @@ button {
     width: 90%;
     margin-top: 2em;
     border-top: 6px solid #363546;
-    padding: 1em;
+    /* padding: 1em; */
 }
 
 .servicios > h3 {
     color: #363546;
     font-size: 2em;
     margin-bottom: 0px;
-    margin-bottom: 1em;
+    margin-bottom: 30px;
+    padding-top: 40px;
     text-align: center;
 }
 
@@ -277,16 +274,18 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     height: auto;
-    
+
 }
 
 .servicios-items {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 180px;
+    margin: 20px;
 }
 
 .icon-servicio {
@@ -318,7 +317,7 @@ button {
 }
 
 .info-servicio > p > span {
-    
+
     font-family: 'GalanoBold',sans-serif;
     font-size: 1.1em;
 
@@ -353,8 +352,8 @@ button {
     justify-content: center;
     width: 60%;
     border-top: 6px solid #363546;
-    margin-top: 1em;
-    padding: 1em;
+    margin-top: 20px;
+    padding: 40px;
 }
 
 .averias-wrapper {
@@ -370,7 +369,7 @@ button {
 .averias > h3 {
     color: #363546;
     font-size: 2em;
-    margin-bottom: 1em;
+    margin-bottom: 20px;
 }
 
 .averias-items {
@@ -379,7 +378,7 @@ button {
     align-items: center;
     width: 180px;
     height: 180px;
-    margin: 1em;
+    margin: 20px;
 }
 
 .info-averia {
@@ -393,7 +392,7 @@ button {
     color: #363546;
     text-align: center;
     font-family: 'GalanoNormal', sans-serif;
-    line-height: 1em;
+    line-height: 20px;
     margin: 0px;
 }
 
@@ -451,12 +450,15 @@ button {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         width: 90%;
 
     }
 
     .servicios-items {
         display: flex;
+        align-items: center;
+        justify-content: center;
         width: 100%;
         border-bottom: 1px solid #363546;
         margin-top: 1em;
@@ -467,7 +469,7 @@ button {
 }
 
 @media only screen and (max-width: 650px) {
-   
+
     .wrapper-left {
         width: 100%;
     }
@@ -482,7 +484,7 @@ button {
     }
 
     .wrapper-down > h3 {
-        margin-top: 1em;
+        margin-top: 20px;
         width: 80%;
     }
 
@@ -506,24 +508,32 @@ button {
 
     .oferta-title {
         width: 100%;
+        font-size: 1.5em;
+        margin: 0px;
     }
 
     .servicios-wrapper {
+        justify-content: center;
+        align-items: center;
         width: 100%;
+        margin: 0px;
 
     }
 
     .servicios-items {
         display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         border-bottom: 1px solid white;
-        margin-top: 1em;
+        margin: 0px;
+        margin-top: 20px;
     }
 
     .servicios-items > p {
         margin: 0px;
     }
-    
+
     .averias {
         display: flex;
         justify-content: center;
@@ -540,13 +550,12 @@ button {
         font-size: 1.9em;
         text-align: center;
     }
-    
+
     .right-title {
         font-size: 2em;
         width: 80%;
-        padding-top: 0.1em;
-        margin-bottom: 0.7em;
-        line-height: 1em;
+        padding-top: 20px;
+        margin-bottom: 20px;
         letter-spacing: -1px;
     }
 
@@ -560,7 +569,7 @@ button {
 
     .wrapper-right {
         width: 100%;
-        padding: 1em;
+        /* padding: 10px; */
     }
 
     .precio-right {
@@ -599,11 +608,11 @@ button {
     }
 
     .card > ul {
-        padding-left: 0.8em;
+        padding-left: 10px;
     }
 
     .card > li {
-        margin-bottom: 1em ;
+        margin-bottom: 10px ;
     }
 
     .footer {
@@ -612,15 +621,15 @@ button {
         justify-content: space-around;
         width: 80%;
         font-family: 'GalanoMedium';
-        margin-top: 2em;
+        margin-top: 20px;
         border-top: 2px solid black;
-        
+
     }
 
     .horario {
-        margin-top: 1em;
+        margin-top: 10px;
         font-size: 0.8em;
-    
+
 
     }
 
