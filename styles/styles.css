@@ -90,14 +90,6 @@ body {
 }
 
 
-.wrapper-left {
-    display: flex;
-    justify-content: center;
-
-    width: 50%;
-    height: 100%;
-}
-
 .wrapper-right {
     display: flex;
     flex-direction: column;
@@ -115,9 +107,12 @@ body {
 }
 
 .mucho-frio {
-    display: block;
-    height: 100%;
-    width: auto;
+  
+    position: relative;
+    left: 5%;
+    width: 90%;
+    height: auto;
+    margin: 0px;
 
 }
 
@@ -239,7 +234,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 60%;
     margin-top: 3em;
     border: 6px solid #363546;
     padding: 1em;
@@ -253,6 +248,7 @@ button {
 
 .servicios {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
     
@@ -286,11 +282,14 @@ button {
     font-size: 1.2em;
 }
 
+/*averias*/
+
 .averias {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    justify-content: center;
+    width: 60%;
     border: 6px solid white;
     margin-top: 1em;
     padding: 1em;
@@ -299,8 +298,12 @@ button {
 .averias-wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
 
 }
+
 
 .averias > h3 {
     color: white;
@@ -309,10 +312,47 @@ button {
 }
 
 .averias-items {
-    width: 200px;
-    height: 200px;
-    border: 3px solid white;
-    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    margin: 1em;
+}
+
+.info-averia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.info-averia > p {
+    color: white;
+    text-align: center;
+    font-family: 'GalanoNormal', sans-serif;
+    line-height: 1em;
+    margin: 0px;
+}
+
+.precio-averia > p {
+    color: white;
+    font-family: 'GalanoBold',sans-serif;
+    font-size: 2em;
+    margin: 0px;
+}
+
+.icon-averia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    /* padding: 0.6em; */
+    
+}
+
+.icon-averia > img {
+    height: 100%;
 }
 
 .preguntas {
@@ -341,3 +381,7 @@ button {
     padding: 3em;
 }
 
+@media only screen and (max-width: 600px) {
+   
+
+  }
