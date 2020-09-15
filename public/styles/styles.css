@@ -115,6 +115,15 @@ body {
     font-size: 1.2em;
 }
 
+.homeserve-title {
+    width: 80%;
+}
+
+.homeserve-title > p {
+    margin: 0px;
+    color: black;
+}
+
 
 .mucho-frio {
 
@@ -525,6 +534,10 @@ button {
 
     h3 {
         font-size: 1.3em;
+    }
+
+    .homeserve-title {
+        width: 100%;
     }
 
     .oferta-title {
