@@ -152,7 +152,8 @@ body {
 .wrapper-up {
     display: flex;
     width: 100%;
-    padding: 30px 30px 0px 30px;
+    padding: 30px;
+    padding-bottom: 0px;
 }
 
 .wrapper-down {
@@ -279,6 +280,12 @@ button {
     text-align: center;
     color: #363546;
     font-size: 2em;
+    margin: 0px;
+}
+.oferta-title > h3 {
+    width: 100%;
+    font-size: 1.5em;
+    /* margin: 0px; */
 }
 
 .oferta-title > span {
@@ -523,7 +530,8 @@ button {
     .wrapper-up {
         display: flex;
         flex-direction: column;
-        padding: 10px 30px 0px 30px;
+        padding: 30px;
+        padding-bottom: 0px;
     }
 
 
@@ -565,11 +573,7 @@ button {
     
     }
 
-    .oferta-title > h3 {
-        width: 100%;
-        font-size: 1.5em;
-        margin: 0px;
-    }
+ 
 
     .servicios {
         width: 100%;
