@@ -36,7 +36,7 @@ body {
     align-items: center;
     height: 100%;
     padding: 10px;
-    margin-left: 2em;
+    margin-left: 3em;
 }
 
 .logo {
@@ -107,7 +107,9 @@ body {
 }
 
 .precio-right {
-    margin-top: 20px;
+    width: 60%;
+    font-family: 'GalanoNormal';
+    margin: 32px 0px 32px 0px;
 }
 
 .precio-right > span {
@@ -117,11 +119,14 @@ body {
 
 .homeserve-title {
     width: 80%;
+    align-items: center;
+    color: #00cfa7;
+    margin: 0px;
 }
 
 .homeserve-title > p {
     margin: 0px;
-    color: black;
+    color: #363546;
 }
 
 
@@ -132,6 +137,15 @@ body {
     width: 90%;
     height: auto;
     margin: 0px;
+
+}
+
+.tecnico {
+
+    display: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
 
 }
 
@@ -167,6 +181,7 @@ h2 {
 }
 
 .subtitle {
+    margin: 0px;
     font-family: 'GalanoNormal', sans-serif;
 }
 
@@ -194,12 +209,14 @@ h3 {
 .podemos-llamarte {
     font-family: 'GalanoBold', sans-serif;
     text-align: center;
+    color: #363546;
     line-height: 1em;
     font-size: 2em;
-    border-top: 1px solid black;
+    border-top: 6px solid #363546;
     margin-top: 10px;
     padding-top: 10px;
     margin-bottom: 30px;
+    width: 100%;
 
 }
 
@@ -207,18 +224,7 @@ p {
     font-family: 'GalanoNormal', sans-serif;
 }
 
-.precio-right {
-    width: 60%;
-    font-family: 'GalanoNormal';
-    margin-top: 20px;
-}
 
-.homeserve-title {
-    width: 80%;
-    align-items: center;
-    color: #00cfa7;
-    margin-top: 40px;
-}
 
 .homeserve-logo {
     height: 30px;
@@ -285,7 +291,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 60%;
     margin-top: 2em;
     border-top: 6px solid #363546;
     /* padding: 1em; */
@@ -296,7 +302,7 @@ button {
     font-size: 2em;
     margin-bottom: 0px;
     margin-bottom: 30px;
-    padding-top: 40px;
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -358,9 +364,11 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 60%;
     font-family: 'GalanoMedium';
     margin-top: 2em;
+    border-top: 6px solid #363546;
+    color: #363546;
 }
 
 .footer > p {
@@ -383,7 +391,7 @@ button {
     width: 60%;
     border-top: 6px solid #363546;
     margin-top: 20px;
-    padding: 40px;
+    /* padding: 40px; */
 }
 
 .averias-wrapper {
@@ -399,7 +407,8 @@ button {
 .averias > h3 {
     color: #363546;
     font-size: 2em;
-    margin-bottom: 20px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px 0px 0px 0px;
 }
 
 .averias-items {
@@ -474,6 +483,11 @@ button {
     padding: 3em;
 }
 
+.horario {
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
 @media only screen and (max-width: 1680px) {
 
     .servicios-wrapper {
@@ -501,17 +515,16 @@ button {
 @media only screen and (max-width: 650px) {
 
     .wrapper-left {
+        display: none;
         width: 100%;
     }
 
     .wrapper-up {
         display: flex;
         flex-direction: column;
+        padding: 10px 30px 30px 30px;
     }
 
-    .wrapper-down {
-        padding: 0px;
-    }
 
     .wrapper-down > h3 {
         margin-top: 20px;
@@ -520,6 +533,8 @@ button {
 
     .logobox {
         width: 60%;
+        margin: 0px;
+        padding: 1em 0em 0em 30px;
     }
 
     .logo {
@@ -540,10 +555,23 @@ button {
         width: 100%;
     }
 
+    .tecnico {
+
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    
+    }
+
     .oferta-title {
         width: 100%;
         font-size: 1.5em;
         margin: 0px;
+    }
+
+    .servicios {
+        width: 100%;
     }
 
     .servicios-wrapper {
@@ -572,7 +600,6 @@ button {
         display: flex;
         justify-content: center;
         width: 100%;
-        border: 0px;
     }
 
     .averias-items {
@@ -588,7 +615,7 @@ button {
     .right-title {
         font-size: 2em;
         width: 80%;
-        padding-top: 20px;
+        padding-top: 0px;
         margin-bottom: 20px;
         letter-spacing: -1px;
     }
@@ -603,7 +630,6 @@ button {
 
     .wrapper-right {
         width: 100%;
-        /* padding: 10px; */
     }
 
     .precio-right {
@@ -611,7 +637,7 @@ button {
     }
 
     .formulario {
-        width: 90%;
+        width: 100%;
         align-self: center;
     }
 
@@ -653,19 +679,18 @@ button {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        width: 80%;
+        width: 100%;
         font-family: 'GalanoMedium';
         margin-top: 20px;
-        border-top: 2px solid black;
-
+        padding-top: 20px;
+    
     }
 
     .horario {
-        margin-top: 10px;
-        font-size: 0.8em;
-
-
+        margin: 0px;
     }
+
+
 
     .footer > p {
         text-align: center;
