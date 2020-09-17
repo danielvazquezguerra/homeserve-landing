@@ -320,7 +320,7 @@ button {
     text-align: center;
     color: #363546;
     font-size: 2em;
-    margin: 0px;
+    margin-top: 30px;
 }
 .oferta-title > h3 {
     width: 100%;
@@ -357,7 +357,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: auto;
 
 }
@@ -591,9 +591,6 @@ button {
 
 @media only screen and (max-width: 1259px) {
 
-    
-
-
     .wrapper-up {
         height: 80vh;
     }
@@ -603,6 +600,10 @@ button {
 
     .info-left {
         display: flex;
+    }
+
+    .averias-items {
+        width: 180px;
     }
 
 }
@@ -677,13 +678,6 @@ button {
     .averias {
         widows: 90%;
     }
-
-    .averias-items {
-        width: 40%;
-    }
-
-
-
 
     .wrapper-down > h3 {
         margin-top: 20px;
@@ -776,10 +770,6 @@ button {
         width: 100%;
     }
 
-    .averias-items {
-        width: 80%;
-
-    }
 
     .averias > h3 {
         font-size: 1.9em;
