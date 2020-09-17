@@ -120,6 +120,10 @@ body {
     width: 60%;
 }
 
+.tablet-down-content {
+    display: none;
+}
+
 .precio-right {
     /* width: 80%; */
     font-family: 'GalanoNormal';
@@ -587,6 +591,8 @@ button {
 
 @media only screen and (max-width: 1259px) {
 
+    
+
 
     .wrapper-up {
         height: 80vh;
@@ -604,9 +610,53 @@ button {
 
 @media only screen and (max-width: 1025px) {
 
+    .tablet-down-content {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .homeserve-title-down {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 45%;
+    }
+
+    .formulario-down {
+        display: block;
+        width: 45%;
+        margin-top: 20px;
+    }
+
+    .header-main {
+        height: 20vh;
+    }
+
     .wrapper-left {
         display: flex;
         width: 100%;
+        padding: 0px;
+    }
+
+    .homeserve-logo {
+        filter: invert(0);
+        width: 60%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .right-title {
+        width: 40%;
+    }
+
+
+    
+
+    .info-left {
+        display: none;
     }
 
     .wrapper-right {
@@ -616,9 +666,12 @@ button {
     .wrapper-up {
         display: flex;
         flex-direction: column;
-        padding: 30px;
-        padding-bottom: 0px;
+        padding: 40px;
         height: 50vh;
+    }
+
+    .wrapper-down {
+        padding: 40px;
     }
 
     .averias {
@@ -638,14 +691,18 @@ button {
     }
 
     .logobox {
+        display: flex;
+        justify-content: flex-start;
         width: 50%;
-        margin: 0px;
-        padding: 1em 0em 0em 30px;
+        height: 50%;
+        margin: 40px 0px 0px 40px;
+        padding: 0px;
     }
 
     .logo {
-        width: 100%;
+        width: 300px;
         height: auto;
+        filter: unset;
     }
 
     h2 {
@@ -659,6 +716,21 @@ button {
 
     .homeserve-title {
         width: 100%;
+    }
+
+    .homeserve-title-down {
+        display: block;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .homeserve-title-down > span {
+        font-family: 'GalanoBold';
+        color: red;
+    }
+
+    .homeserve-title-down > p {
+        margin: 0px;
     }
 
     .tecnico {
@@ -803,7 +875,11 @@ button {
     }
   }
 
-  @media only screen and (max-width: 1025px) {
+  @media only screen and (max-width: 550px) {
+
+    .header-main {
+        height: 10vh;
+    }
 
     .wrapper-up {
         padding: 20px;
@@ -830,31 +906,23 @@ button {
       }
 
       .homeserve-title-down {
-          display: block;
-          flex-direction: column;
-          text-align: center;
-      }
 
-      .homeserve-title-down > span {
-          font-family: 'GalanoBold';
-          color: red;
-      }
-
-      .homeserve-title-down > p {
-          margin: 0px;
-      }
-
-      .homeserve-logo {
-          filter: invert(0);
-          width: 50pxpx;
-          height: 20px;
-      }
-
-      .formulario-down {
-        display: block;
+        width: 300px;
     }
 
-      .logobox {
-          padding: 20px;
-      }
+    .formulario-down {
+     
+        width: 300px;
+    
+    }
+
+    .logobox {
+          padding: 0px;
+          margin: 20px 0px 0px 20px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
   }
