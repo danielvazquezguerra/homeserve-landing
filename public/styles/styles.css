@@ -96,6 +96,13 @@ body {
     padding: 30px;
 }
 
+.info-left {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    font-size: 0.8em;
+}
+
 
 .wrapper-right {
     display: flex;
@@ -130,6 +137,10 @@ body {
     align-items: center;
     color: white;
     margin-bottom: 32px;
+}
+
+.homeserve-title-down {
+    display: none;
 }
 
 .homeserve-title > p {
@@ -171,7 +182,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 90px 30px 30px 30px;
+    padding: 20px;
     margin: 0px;
 }
 
@@ -202,9 +213,10 @@ h3 {
     font-size: 2em;
 }
 
-
-.sepcheck > label {
+label {
     display: flex;
+    font-family: 'GalanoBold';
+    margin: 0px;
 }
 
 .info-pd {
@@ -213,23 +225,27 @@ h3 {
 }
 
 
-.sepcheck > label > p {
+.sepcheck > label {
     font-family: 'GalanoNormal';
-    font-size: 0.5em;
+    font-size: 0.6em;
+    margin-bottom: 10px;
 }
 
 .podemos-llamarte {
     font-family: 'GalanoBold', sans-serif;
-    text-align: center;
+    text-align: left;
     color: #363546;
     line-height: 1em;
-    font-size: 2em;
+    font-size: 1.5em;
     border-top: 6px solid #363546;
     margin-top: 10px;
     padding-top: 10px;
-    margin-bottom: 30px;
     width: 100%;
 
+}
+
+.podemos-llamarte > h3 {
+    margin-bottom: 2em;
 }
 
 p {
@@ -254,6 +270,10 @@ p {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 2px 4px 50px rgba(0, 0, 0, 0.5);
+}
+
+.formulario-down {
+    display: none;
 }
 
 label {
@@ -284,7 +304,7 @@ button {
     font-size: 1.2em;
     width: 100%;
     height: 50px;
-    margin: 50px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
     border: 0px;
     background-color: #363546;
 
@@ -301,7 +321,6 @@ button {
 .oferta-title > h3 {
     width: 100%;
     font-size: 1.5em;
-    /* margin: 0px; */
 }
 
 .oferta-title > span {
@@ -512,7 +531,7 @@ button {
     font-size: 0.8em;
 }
 
-@media only screen and (max-width: 1680px) {
+@media only screen and (max-width: 1440px) {
 
     .servicios-wrapper {
         display: flex;
@@ -523,7 +542,29 @@ button {
 
     }
 
+    .wrapper-up {
+        height: 60vh;
+    }
+
+    .wrapper-left {
+        justify-content: flex-end;
+    }
+
+    .wrapper-right {
+        padding: 0px;
+        justify-content: flex-end;
+    }
+
+
+    .right-title {
+        font-size: 2.5em;
+        line-height: 1.1em;
+    }
+
+   
+
     .content-right {
+        display: block;
         width: 90%;
     }
 
@@ -544,28 +585,32 @@ button {
 
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 1259px) {
+
 
     .wrapper-up {
-
-        height: 40vh;
-
+        height: 80vh;
+    }
+    .content-right {
+        display: none;
     }
 
+    .info-left {
+        display: flex;
+    }
+
+}
+
+
+@media only screen and (max-width: 1025px) {
+
     .wrapper-left {
-        width: 40%;
+        display: flex;
+        width: 100%;
     }
 
     .wrapper-right {
-        width: 60%;
-    }
-}
-
-@media only screen and (max-width: 650px) {
-
-    .wrapper-left {
         display: none;
-        width: 100%;
     }
 
     .wrapper-up {
@@ -573,7 +618,18 @@ button {
         flex-direction: column;
         padding: 30px;
         padding-bottom: 0px;
+        height: 50vh;
     }
+
+    .averias {
+        widows: 90%;
+    }
+
+    .averias-items {
+        width: 40%;
+    }
+
+
 
 
     .wrapper-down > h3 {
@@ -582,7 +638,7 @@ button {
     }
 
     .logobox {
-        width: 60%;
+        width: 50%;
         margin: 0px;
         padding: 1em 0em 0em 30px;
     }
@@ -684,6 +740,7 @@ button {
     }
 
     .formulario {
+        display: none;
         width: 100%;
         align-self: center;
     }
@@ -744,4 +801,60 @@ button {
         line-height: 1.5em;
         text-align: center;
     }
+  }
+
+  @media only screen and (max-width: 1025px) {
+
+    .wrapper-up {
+        padding: 20px;
+    }
+
+    .wrapper-down {
+        padding: 20px;
+    }
+
+      .info-left {
+          display: none;
+      }
+
+      .wrapper-left {
+          padding: 0px;
+      }
+
+      .right-title {
+          width: 100%;
+      }
+
+      .subtitle {
+          display: none;
+      }
+
+      .homeserve-title-down {
+          display: block;
+          flex-direction: column;
+          text-align: center;
+      }
+
+      .homeserve-title-down > span {
+          font-family: 'GalanoBold';
+          color: red;
+      }
+
+      .homeserve-title-down > p {
+          margin: 0px;
+      }
+
+      .homeserve-logo {
+          filter: invert(0);
+          width: 50pxpx;
+          height: 20px;
+      }
+
+      .formulario-down {
+        display: block;
+    }
+
+      .logobox {
+          padding: 20px;
+      }
   }
